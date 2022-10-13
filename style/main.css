@@ -1,0 +1,14 @@
+.main{
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1000px;
+  margin: 50px auto 0px;
+  gap: 50px;
+}
+
+
+@media (max-width:650px){
+  .main{
+    gap: 20px;
+  }
+}

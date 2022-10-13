@@ -1,0 +1,50 @@
+.info-content {
+  text-align: center;
+}
+
+h1 {
+
+  color: var(--veryDarkBlue);
+  font-size: 1.8rem;
+
+}
+
+h1>span:first-child {
+  font-weight: 100;
+  color: var(--veryDarkBlue);
+
+
+
+}
+
+.text-info {
+  max-width: 50ch;
+  margin: 0 auto;
+  color: var(--grayishBlue);
+}
+
+@media (max-width:650px) {
+  h1{
+    font-size: 1.5rem;
+  }
+  .info-content {
+
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: .9rem;
+  }
+}
+
+@media (max-width:410px){
+  h1{
+    font-size: 1.2rem;
+  }
+ .info-content {
+    
+    text-align: left;
+   
+  }
+}
